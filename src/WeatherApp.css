@@ -1,0 +1,75 @@
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.145);
+    color: white;
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.145);
+    color: white;
+    border: 1px solid rgb(73, 73, 73);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s all ease;
+}
+
+button:hover {
+    background-color: #0077ff;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+}
+
+p {
+    margin-bottom: 5px;
+    color: white;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+}
+
+@media (max-width:900px) {
+    .container {
+        max-width: 80%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
